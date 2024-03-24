@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: flex-end; /* Aligner en bas */
+    height: 100%;
+}
+
+.Tweet-bar {
+    width: 80%; /* Largeur de la barre Tweet */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tweet-input {
+    width: calc(100% - 100px); /* Largeur de l'input - la largeur du bouton */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tweet-button {
+    width: 100px;
+    padding: 10px;
+    background-color: #1da1f2;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tweet-button:hover {
+    background-color: #0d8af9;
+}

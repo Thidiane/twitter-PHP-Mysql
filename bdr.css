@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.search-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px; /* Largeur de la barre de recherche */
+    height: 100%;
+    background-color: #000000; /* Couleur de fond */
+    padding: 20px; /* Espacement intérieur */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar form {
+    width: 100%;
+}
+.search-bar input[type="Search"],
+.search-bar input[type="Submit"] {
+    width: 100%;
+    margin-bottom: 10px; /* Espacement entre les éléments */
+    padding: 10px; /* Espacement intérieur des éléments */
+    box-sizing: border-box;
+}
+.bdr {
+    border: 1px solid #ccc; /* Style de bordure */
+    border-radius: 5px; /* Arrondi des bords */
+}
+.content {
+    margin-right: 220px; /* Pour laisser de l'espace à la barre de recherche */
+    padding: 20px; /* Pour la démo */
+}
